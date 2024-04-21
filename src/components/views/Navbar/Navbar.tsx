@@ -6,14 +6,18 @@ import { Navigation } from "@/components/views/Navbar/partials/Navigation";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { MenuIcon } from "@/components/icons/MenuIcon";
+import { CheckOutGitHub } from "@/components/views/Navbar/partials/CheckOutGitHub";
+import { LetsGetInTouchOnLinkedIn } from "@/components/views/Navbar/partials/LetsGetInTouchOnLinkedIn";
 
 const NavbarContent = () => {
 	return (
 		<>
 			<Navigation />
-			<div className="flex items-center gap-3">
+			<div className="flex flex-wrap items-center gap-3">
 				<CheckOutCv />
 				<MailToMe />
+				<CheckOutGitHub />
+				<LetsGetInTouchOnLinkedIn />
 				<ThemeModeToggle />
 			</div>
 		</>
