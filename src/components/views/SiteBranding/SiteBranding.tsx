@@ -21,7 +21,7 @@ export const SiteBranding = () => {
 							alt={siteBranding.siteName}
 							width={IMAGE_SIZE}
 							height={IMAGE_SIZE}
-							className={"rounded-full object-cover"}
+							className={"h-full w-full rounded-full object-cover"}
 						/>
 					</span>
 					<span className={"hidden text-xl font-semibold tracking-tight sm:inline"}>
