@@ -1,6 +1,7 @@
 import NextLink from "next/link";
 import { NAV_LINKS } from "@/constants/navLinks";
 import { Button } from "@/components/ui/button";
+import { TypographyMutedParagraph } from "@/components/views/Typography";
 
 export const Footer = () => {
 	const currentYear = new Date().getFullYear();
@@ -20,9 +21,9 @@ export const Footer = () => {
 					))}
 				</ul>
 			</nav>
-			<p className={"text-center text-sm text-muted-foreground"}>
+			<TypographyMutedParagraph>
 				&copy; {currentYear} Jakub Kaczmarek. All rights reserved.
-			</p>
+			</TypographyMutedParagraph>
 		</footer>
 	);
 };

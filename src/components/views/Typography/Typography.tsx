@@ -11,3 +11,11 @@ export const TypographyH1 = ({ children, ...props }: TypographyProps) => {
 export const TypographyParagraph = ({ children, ...props }: TypographyProps) => {
 	return <p {...props}>{children}</p>;
 };
+
+export const TypographyMutedParagraph = ({ children, ...props }: TypographyProps) => {
+	return (
+		<p {...props} className={"text-center text-sm text-muted-foreground"}>
+			{children}
+		</p>
+	);
+};
