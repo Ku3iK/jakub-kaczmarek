@@ -22,7 +22,7 @@ export const Footer = () => {
 				</ul>
 			</nav>
 			<TypographyMutedParagraph>
-				&copy; {currentYear} Jakub Kaczmarek. All rights reserved.
+				&copy; {`${currentYear} Jakub Kaczmarek. All rights reserved.`}
 			</TypographyMutedParagraph>
 		</footer>
 	);
