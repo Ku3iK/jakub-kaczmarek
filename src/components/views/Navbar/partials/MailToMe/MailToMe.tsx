@@ -11,6 +11,7 @@ export const MailToMe = () => {
 			aria-label={TEXT}
 			icon={<Mail />}
 			href={`mailto:${EMAIL_ADDRESS}`}
+			prefetch={false}
 		/>
 	);
 };

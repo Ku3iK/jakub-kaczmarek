@@ -13,6 +13,7 @@ export const CheckOutGitHub = () => {
 			href={SOCIAL_MEDIA.github.href}
 			target={"_blank"}
 			rel={"noopener noreferrer nofollow"}
+			prefetch={false}
 		/>
 	);
 };

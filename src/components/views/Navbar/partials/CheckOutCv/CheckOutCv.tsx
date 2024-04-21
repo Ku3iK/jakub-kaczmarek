@@ -13,6 +13,7 @@ export const CheckOutCv = () => {
 			href={CV_URL}
 			download
 			target={"_blank"}
+			prefetch={false}
 		/>
 	);
 };

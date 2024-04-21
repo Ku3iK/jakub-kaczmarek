@@ -13,6 +13,7 @@ export const LetsGetInTouchOnLinkedIn = () => {
 			href={SOCIAL_MEDIA.linkedin.href}
 			target={"_blank"}
 			rel={"noopener noreferrer nofollow"}
+			prefetch={false}
 		/>
 	);
 };
