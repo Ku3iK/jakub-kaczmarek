@@ -5,13 +5,13 @@ export const AboutMe = () => {
 		<section
 			aria-labelledby={"about-me-heading"}
 			aria-describedby={"about-me-description"}
-			className={"flex max-w-lg flex-col gap-6"}
+			className={"flex max-w-2xl flex-col gap-6"}
 		>
-			<TypographyH1 id={"about-me-heading"}>Hi! My name is Jakub!</TypographyH1>
+			<TypographyH1 id={"about-me-heading"}>{"Hi! My name is Jakub!"}</TypographyH1>
 			<TypographyParagraph id={"about-me-description"}>
-				I'm a Frontend Developer specializing in TypeScript, React.js, and Next.js. I'm focusing on
-				further development in frontend technologies and directing my career path towards Fullstack
-				Development.
+				{
+					"I'm a Frontend Developer specializing in TypeScript, React.js, and Next.js. I'm focusing on further development in frontend technologies and directing my career path towards Fullstack Development."
+				}
 			</TypographyParagraph>
 		</section>
 	);

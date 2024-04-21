@@ -7,9 +7,9 @@ export const Articles = () => {
 			aria-describedby={"articles-description"}
 			className={"flex max-w-lg flex-col gap-6"}
 		>
-			<TypographyH1 id={"articles-heading"}>Articles</TypographyH1>
+			<TypographyH1 id={"articles-heading"}>{"Articles"}</TypographyH1>
 			<TypographyParagraph id={"articles-description"}>
-				Stay tuned, coming soon...
+				{"Stay tuned, coming soon..."}
 			</TypographyParagraph>
 		</section>
 	);
