@@ -9,7 +9,7 @@ const IMAGE_SIZE = 40;
 export const SiteBranding = () => {
 	return (
 		<Button variant={"ghost"} className={"h-auto px-2"} asChild>
-			<NextLink href={routes.homepage.url()}>
+			<NextLink href={routes.homepage.url()} aria-label={siteBranding.siteName}>
 				<span className={"flex items-center gap-2"}>
 					<span
 						className={
