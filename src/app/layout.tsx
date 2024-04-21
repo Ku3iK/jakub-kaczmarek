@@ -5,6 +5,7 @@ import { type RootLayoutProps } from "@/types/routes/types";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import { Navbar } from "@/components/views/Navbar";
+import { Footer } from "@/components/views/Footer";
 
 const fontManrope = Manrope({
 	subsets: ["latin", "latin-ext"],
@@ -29,6 +30,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
 				>
 					<Navbar />
 					{children}
+					<Footer />
 				</ThemeProvider>
 			</body>
 		</html>
