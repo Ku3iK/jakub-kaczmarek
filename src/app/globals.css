@@ -73,4 +73,8 @@
 	body {
 		@apply bg-background text-foreground;
 	}
+
+	.section-container {
+		@apply mx-auto w-full max-w-3xl px-6 lg:max-w-7xl;
+	}
 }
