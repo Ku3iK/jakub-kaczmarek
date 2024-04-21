@@ -4,6 +4,7 @@ import "./globals.css";
 import { type RootLayoutProps } from "@/types/routes/types";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/providers/ThemeProvider";
+import { Navbar } from "@/components/views/Navbar";
 
 const fontManrope = Manrope({
 	subsets: ["latin", "latin-ext"],
@@ -19,13 +20,14 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: RootLayoutProps) {
 	return (
 		<html lang="en">
-			<body className={cn("font-manrope min-h-screen antialiased", fontManrope.variable)}>
+			<body className={cn("min-h-screen font-manrope antialiased", fontManrope.variable)}>
 				<ThemeProvider
 					attribute={"class"}
 					defaultTheme={"system"}
 					enableSystem
 					disableTransitionOnChange
 				>
+					<Navbar />
 					{children}
 				</ThemeProvider>
 			</body>
