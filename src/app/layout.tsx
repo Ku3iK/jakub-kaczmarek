@@ -22,7 +22,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: RootLayoutProps) {
 	return (
 		<html lang="en">
-			<body className={cn("min-h-screen font-manrope antialiased", fontManrope.variable)}>
+			<body
+				className={cn("min-h-screen text-balance font-manrope antialiased", fontManrope.variable)}
+			>
 				<ThemeProvider
 					attribute={"class"}
 					defaultTheme={"system"}
